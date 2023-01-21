@@ -1,0 +1,4 @@
+baseURL = 'http://website101/'
+languageCode = 'en-us'
+title = 'Documentation Website'
+theme = 'ananke'
