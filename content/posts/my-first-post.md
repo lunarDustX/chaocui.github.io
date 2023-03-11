@@ -1,11 +1,13 @@
 ---
-title: "My First Post"
+title: "Final Project"
 date: 2023-01-21T16:10:08+02:00
-draft: true
+draft: false
 ---
 
-## Introduction
+AR Pop-up Toy
+
+<!-- ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
 
-Visit the [Hugo](https://gohugo.io) website!
+Visit the [Hugo](https://gohugo.io) website! -->
