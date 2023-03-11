@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>charlola.mode</title>
+    <title></title>
     <link>https://lunardustx.github.io/</link>
-    <description>Recent content on charlola.mode</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 21 Jan 2023 16:10:08 +0200</lastBuildDate><atom:link href="https://lunardustx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://lunardustx.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Final Project</title>
-      <link>https://lunardustx.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 21 Jan 2023 16:10:08 +0200</pubDate>
+      <link>https://lunardustx.github.io/articles/article/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lunardustx.github.io/posts/my-first-post/</guid>
-      <description>AR Pop-up Toy</description>
+      <guid>https://lunardustx.github.io/articles/article/</guid>
+      <description> </description>
     </item>
     
     <item>
@@ -22,15 +21,6 @@
       
       <guid>https://lunardustx.github.io/projects/math-brain-trainer/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Surprise Surprise</title>
-      <link>https://lunardustx.github.io/articles/article/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunardustx.github.io/articles/article/</guid>
-      <description>Thank you for your support! Hello. If you like this template, I&amp;rsquo;d be happy to get a coffee donation :)</description>
     </item>
     
   </channel>
