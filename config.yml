@@ -37,7 +37,7 @@ params:
     displayFullLangName: false
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
-    ShowToc: true
+    ShowToc: false
 
     profileMode:
         # Disable to populate home page with 'mainSections' content
@@ -46,7 +46,7 @@ params:
         description: |
           Hi.
 
-        imageUrl: "/images/profile.png"
+        imageUrl: "/images/bush.png"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
