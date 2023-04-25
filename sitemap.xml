@@ -2,7 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lunardustx.github.io/embodied-interaction/final-project/</loc>
+  </url><url>
+    <loc>https://lunardustx.github.io/embodied-interaction/final-project-proposal/</loc>
+  </url><url>
+    <loc>https://lunardustx.github.io/embodied-interaction/gesture-assignment/</loc>
+  </url><url>
     <loc>https://lunardustx.github.io/</loc>
+  </url><url>
+    <loc>https://lunardustx.github.io/embodied-interaction/</loc>
   </url><url>
     <loc>https://lunardustx.github.io/articles/</loc>
   </url><url>
@@ -10,11 +18,11 @@
   </url><url>
     <loc>https://lunardustx.github.io/contact/</loc>
   </url><url>
-    <loc>https://lunardustx.github.io/articles/article/</loc>
-  </url><url>
     <loc>https://lunardustx.github.io/projects/math-brain-trainer/</loc>
   </url><url>
     <loc>https://lunardustx.github.io/projects/</loc>
+  </url><url>
+    <loc>https://lunardustx.github.io/articles/article/</loc>
   </url><url>
     <loc>https://lunardustx.github.io/tags/</loc>
   </url>
