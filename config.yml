@@ -11,8 +11,8 @@ menu:
         # - name: Contact
         #   url: /contact/
         #   weight: 30
-        - name: Articles
-          url: /articles/
+        - name: Embodied Interaction
+          url: /embodied-interaction/
           weight: 20
         # - name: Projects
         #   url: /projects/
@@ -31,7 +31,7 @@ params:
     author: #Author's Name
 
     defaultTheme: auto
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     displayFullLangName: false
@@ -56,7 +56,7 @@ params:
         #       url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
     mainSections:
-      - articles
+      # - articles
 
     socialIcons:
     #     - name: buymeacoffee
