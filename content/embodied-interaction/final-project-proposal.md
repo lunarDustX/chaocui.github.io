@@ -1,12 +1,12 @@
 ---
 title: Final Project Proposal
 # type: page
-# description: of Embodied Interaction
+description: AR Popup Toy
 # topic: career
 weight : 2
 ---
 
-### AR Pop-up Toy
+<!-- ### AR Pop-up Toy -->
 
 AR technology is a bridge between virtual and reality.<br>
 With the help of AR glasses, it's possible to see something fantasy.
@@ -34,12 +34,3 @@ A possible fantasy experience is that, gods will gradually appear when you heat 
 #### Harry Potter
 It's also possible to make the "Guardian Spell" in Harry Potter come true. Different people could see different animals depends on different wand movement?
 {{< figure src="/images/Spell.png" title="" >}}
-
-<!-- 
-### Thank you for your support!
-
-Hello. If you like this template, I'd be happy to get a [coffee donation](https://ko-fi.com/heycharlola) :)
-
-{{< figure src="/images/thankyou.png" title="" >}} 
-
--->

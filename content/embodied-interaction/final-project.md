@@ -1,12 +1,22 @@
 ---
-title: Final Project - Forest In Room
+title: Final Project
 # type: page
-# description: of Embodied Interaction
+description: Forest In Room
 # topic: career
 weight: 1
 ---
 
-bbb
+### Final Showcase
+
+{{< rawhtml >}} 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ebR6B5H1GUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< /rawhtml >}}
+
+### Project Description
+The idea of this project is to explore the forest in your own room with the help of HoloLens. You could catch fireflies and interact with mushrooms in this project.
+
+
+
 <!-- ### AR Pop-up Toy
 
 AR technology is a bridge between virtual and reality.<br>
