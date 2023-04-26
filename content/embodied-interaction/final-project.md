@@ -15,33 +15,62 @@ weight: 1
 ### Project Description
 The idea of this project is to explore the forest in your own room with the help of HoloLens. You could catch fireflies and interact with mushrooms in this project.
 
+### Development Process
+#### Firefly Catch
+This was the first thing I made for this project, because firely is a very typical forest element.   
+{{< rawhtml >}} 
+  <img src="/images/bugNet.png" alt="HTML5 Icon" width="300" height="300">
+{{< /rawhtml >}}
+At the beginning, I planned to use a real bug net to catch fireflies. But I quickly dropped this idea after a simple mock test. There are two main reasons.
+
+{{< rawhtml >}} 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7k6gUihZ5Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+{{< /rawhtml >}}
+
+1. The FOV of HoloLens is very limited. Your hand is easily out of vision when holding the net pole. Once HoloLens lose track of your hand, the virtual net collision won't work, because it relies on real time hand position data.
+2. Catching a firefly by hands directly will encourage more body movement, makes the catching behaviour more "embodied". 
+
+#### Leaves Generation
+HoloLens has an amazing feature called "Spatial Mapping", that means HoloLens could detect real-world surfaces in the environment around. So I fetch those surface data, and generate leaves on vertices. In order not to cause serious performance problem, I use a super low mesh for the leaf, the "quad" in Unity. A quad only has 2 triangles, it's cheap.
+
+{{< rawhtml >}} 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LTRAFk_wu_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< /rawhtml >}}
+
+Later, I watched the tutorial below and made a shader for the leaves to make it looks better.
+
+{{< rawhtml >}} 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kkAcGUR7pjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< /rawhtml >}}
 
 
-<!-- ### AR Pop-up Toy
+#### Color The World
+In order to make the whole experience more immersive, I try to paint the walls and surfaces with color. Then I realized an issue, all the colors you see through HoloLens are totally different than what you see in Unity. For example, the pure black in Unity will become totally transparent in HoloLens. This makes things super difficult. I hadn't made the color looks good at the end of the development. 
+{{< rawhtml >}} 
+  <img src="/images/wall-color.png" alt="HTML5 Icon" width="585" height="330">
+{{< /rawhtml >}}
 
-AR technology is a bridge between virtual and reality.<br>
-With the help of AR glasses, it's possible to see something fantasy.
+#### Mushroom
+Mushroom was another typical forest vibe element I added to this project.
 
-The basic idea of this project is super simple: use a **tangible object** as a trigger, to make something happen in the virtual world.
+{{< rawhtml >}} 
+  <img src="/images/mushroom.png" alt="HTML5 Icon" width="585" height="330">
+{{< /rawhtml >}}
 
-#### Araddin Lamp
+I tried a detailed model first, it looked pretty good, but caused a serious performance issue. So I had to use a low-poly version instead.   
 
-The first idea came into my mind is Araddin Magic Lamp, the famous folk tale in the book One Thousand and One Nights. The genie will appear when you touch/rub the tangible lamp.
+I also made mushrooms interactable, because I always wanna feel the beautiful mushrooms with my hands when I walking in a real forest. Feedbacks are super important when you interact with virual objects in an AR experience. I did following things to make the mushroom touching experience feels good:
+* mushroom shrinking animation
+* particle effect
+* sound feedback
 
-{{< figure src="/images/Aladdin.png" title="" >}}
+{{< rawhtml >}} 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vJa5HkqZib0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< /rawhtml >}}
 
-#### Pokemon Ball
+#### THE END
+I am very happy to play with HoloLens for the first time during the development of this project. Unfortunately, I am not an expert in shader and don't have enough time to solve the color rendering problem.  
 
-Another idea is the Pokemon Ball. At the beginning of Pokemon games, players should choose one of the three Pokemons. In this case, Pokemon will appear when you open the Pokemon Ball, and disappear when you close the ball. 
 
-{{< figure src="/images/Pokemon.png" title="" >}}
 
-With the help of AR glasses, we could see something we believe exists in the world.
-
-#### Prayer
-A possible fantasy experience is that, gods will gradually appear when you heat a cross sensor by your hands(body temperature).
-{{< figure src="/images/Pray.png" title="" >}}
-
-#### Harry Potter
-It's also possible to make the "Guardian Spell" in Harry Potter come true. Different people could see different animals depends on different wand movement?
-{{< figure src="/images/Spell.png" title="" >}} -->
+ 
