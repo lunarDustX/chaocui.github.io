@@ -71,6 +71,10 @@ I also made mushrooms interactable, because I always wanna feel the beautiful mu
 #### THE END
 I am very happy to play with HoloLens for the first time during the development of this project. Unfortunately, I am not an expert in shader and don't have enough time to solve the color rendering problem.  
 
+{{< rawhtml >}} 
+  <img src="/images/ideal.png" alt="HTML5 Icon" width="535" height="335">
+{{< /rawhtml >}}
+
 
 
  
