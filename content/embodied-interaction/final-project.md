@@ -17,7 +17,7 @@ The idea of this project is to explore the forest in your own room with the help
 
 ### Development Process
 #### Firefly Catch
-This was the first thing I made for this project, because firely is a very typical forest element.   
+This was the first thing I made for this project, because firefly is a very typical forest element.   
 {{< rawhtml >}} 
   <img src="/images/bugNet.png" alt="HTML5 Icon" width="300" height="300">
 {{< /rawhtml >}}
@@ -59,7 +59,7 @@ Mushroom was another typical forest vibe element I added to this project.
 
 I tried a detailed model first, it looked pretty good, but caused a serious performance issue. So I had to use a low-poly version instead.   
 
-I also made mushrooms interactable, because I always wanna feel the beautiful mushrooms with my hands when I walking in a real forest. Feedbacks are super important when you interact with virual objects in an AR experience. I did following things to make the mushroom touching experience feels good:
+I also made mushrooms interactable, because I always wanna feel the beautiful mushrooms with my hands when I walking in a real forest. Feedbacks are super important when you interact with virtual objects in an AR experience. I did following things to make the mushroom touching experience feels good:
 * mushroom shrinking animation
 * particle effect
 * sound feedback
